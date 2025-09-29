@@ -50,7 +50,7 @@ jobs:
           composer pint:test
 
       - name: Commit changes
-        uses: EndBug/add-and-commit@v9workflow_dispatch
+        uses: EndBug/add-and-commit@v9
         with:
           default_author: github_actions
           message: "ci(build): build assets and run code style"
